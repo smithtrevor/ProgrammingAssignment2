@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following functions provide capabilities to create and cache the inverse
+## of a matrix allowing retrieval of the matrix from a cache rather than 
+## generating the inverse every time it is needed.  The intent is to save time
+## and compute resources by retrieving the saved value.
 
 ## makeCacheMatrix accepts a matrix and stores it as well as the inverse of the
 ## matrix if it has been created.  it provides the set and get methods to set and
